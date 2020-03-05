@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.Newsdiv{
+  text-align: center;
+  }
+  
+  .imgclass{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .news-class{
+  margin-top: 50px;
+  }
+  
+  .publish{
+  text-align: left !important;
+  }
+  
+  .articledesc{
+  margin-top: 10px;
+  color: #605c65;
+  }
