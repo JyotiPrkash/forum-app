@@ -1,11 +1,60 @@
 .App {
   text-align: center;
 }
-
+.jumbotron{
+  margin-bottom: 0px !important;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.forum-posts{
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.new-post-input{
+  height: 100px !important;
+}
+.new-title-input{
+  margin-bottom: 1%;
+  background-color: cornsilk;
+
+}
+.post-title{
+  text-align: left;
+  background-color: lavender;
+  padding: 10px;
+}
+.post-body{
+  text-align: left;
+  padding-left: 10px;
+
+}
+.newPost{
+  margin-top: 2%;
+  
+}
+::-webkit-scrollbar {
+	width: 0px;
+	background-color: #D8D8D8;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0px 0px 0px #E8E8E8;
+	background-color: #FFFFFF;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+	background-color: #D8D8D8;
+	border-radius: 3px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -38,7 +87,10 @@
 }
 
 .Newsdiv{
-  text-align: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: azure;
   }
   
   .imgclass{
